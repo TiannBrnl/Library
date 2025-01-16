@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(94, 142, 94, 0.233), rgba(17, 21, 17, 0.622)), url('../../assets/carmona.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.home-content {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 25%;
+    margin-left: 200px;
+    text-align: center;
+    padding-left: 35%;
+    font-size: 25px;
+}
+
+@media (max-width: 535px) {
+    .home-content {
+        padding-left: 0;
+        margin-left: 0;
+        padding-top: 50%;
+    }
+}
